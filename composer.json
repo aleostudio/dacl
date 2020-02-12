@@ -1,14 +1,21 @@
 {
     "name": "aleostudio/dacl",
     "description": "Dynamic access control list with hierarchical roles for Laravel 6",
-    "keywords": ["aleostudio", "roles", "permissions", "rbac", "dacl", "acl", "hierarchy", "nested", "auth", "laravel"],
+    "version": "1.0.0",
+    "keywords": [ "aleostudio", "roles", "permissions", "rbac", "dacl", "acl", "hierarchy", "nested", "auth", "laravel" ],
+    "homepage": "https://github.com/aleostudio/dacl",
+    "type": "package",
     "license": "MIT",
     "authors": [
         {
             "name": "Alessandro Orrù",
-            "email": "alessandro.orru@aleostudio.com"
+            "email": "alessandro.orru@aleostudio.com",
+            "homepage": "https://aleostudio.com",
+            "role": "Developer"
         }
     ],
+    "minimum-stability": "dev",
+    "prefer-stable" : true,
     "require": {
         "php": "^7.2",
         "illuminate/support": "~6.11.0"
